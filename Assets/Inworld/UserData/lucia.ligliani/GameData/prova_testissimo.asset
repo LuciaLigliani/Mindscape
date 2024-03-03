@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5abd9eaac9cc3e4585d7e8574c2511c, type: 3}
+  m_Name: prova_testissimo
+  m_EditorClassIdentifier: 
+  sceneFullName: workspaces/testissimo/scenes/prova
+  apiKey: rl6fWno7EWnR4Mepoxq4XTYuN99fqPEa
+  apiSecret: LBeYzhwzn3Vre8n4mCUWdZx1goVwMJQ4fVhBI1eetcbw9jSVKxHrzR6DjK9oihXp
+  characters:
+  - agentId: 
+    brainName: workspaces/testissimo/characters/segretary
+    givenName: segretary
+    characterAssets:
+      rpmModelUri: https://storage.googleapis.com/inworld-ai-usercontent-prod/rpm_model/ae30cc3b-9aa4-46aa-980a-1789b2d9e018.glb
+      rpmImageUriPortrait: https://storage.googleapis.com/inworld-ai-usercontent-prod/rpm_image/ae30cc3b-9aa4-46aa-980a-1789b2d9e018_portrait.jpg
+      rpmImageUriPosture: https://storage.googleapis.com/inworld-ai-usercontent-prod/rpm_image/ae30cc3b-9aa4-46aa-980a-1789b2d9e018_posture.jpg
+      avatarImg: 
+      avatarImgOriginal: 
+      thumbnailProgress: 0
+      avatarProgress: 0
+    thumbnail: {fileID: 0}
+  - agentId: 
+    brainName: workspaces/testissimo/characters/teacher
+    givenName: teacher
+    characterAssets:
+      rpmModelUri: https://storage.googleapis.com/inworld-ai-usercontent-prod/rpm_model/9d0468d6-3f67-44b3-a29d-f49ba6af4cc7.glb
+      rpmImageUriPortrait: https://storage.googleapis.com/inworld-ai-usercontent-prod/rpm_image/9d0468d6-3f67-44b3-a29d-f49ba6af4cc7_portrait.jpg
+      rpmImageUriPosture: https://storage.googleapis.com/inworld-ai-usercontent-prod/rpm_image/9d0468d6-3f67-44b3-a29d-f49ba6af4cc7_posture.jpg
+      avatarImg: 
+      avatarImgOriginal: 
+      thumbnailProgress: 0
+      avatarProgress: 0
+    thumbnail: {fileID: 0}
+  - agentId: 
+    brainName: workspaces/testissimo/characters/boss
+    givenName: boss
+    characterAssets:
+      rpmModelUri: https://storage.googleapis.com/inworld-ai-usercontent-prod/rpm_model/887d30d1-3960-497f-a347-3d580294b125.glb
+      rpmImageUriPortrait: https://storage.googleapis.com/inworld-ai-usercontent-prod/rpm_image/887d30d1-3960-497f-a347-3d580294b125_portrait.jpg
+      rpmImageUriPosture: https://storage.googleapis.com/inworld-ai-usercontent-prod/rpm_image/887d30d1-3960-497f-a347-3d580294b125_posture.jpg
+      avatarImg: 
+      avatarImgOriginal: 
+      thumbnailProgress: 0
+      avatarProgress: 0
+    thumbnail: {fileID: 0}
+  - agentId: 
+    brainName: workspaces/testissimo/characters/co_worker
+    givenName: co worker
+    characterAssets:
+      rpmModelUri: https://storage.googleapis.com/inworld-ai-usercontent-prod/rpm_model/20d2bcc4-9193-4f22-b7b3-3699127fd713.glb
+      rpmImageUriPortrait: https://storage.googleapis.com/inworld-ai-usercontent-prod/rpm_image/20d2bcc4-9193-4f22-b7b3-3699127fd713_portrait.jpg
+      rpmImageUriPosture: https://storage.googleapis.com/inworld-ai-usercontent-prod/rpm_image/20d2bcc4-9193-4f22-b7b3-3699127fd713_posture.jpg
+      avatarImg: 
+      avatarImgOriginal: 
+      thumbnailProgress: 0
+      avatarProgress: 0
+    thumbnail: {fileID: 0}
+  capabilities:
+    audio: 1
+    emotions: 1
+    interruptions: 1
+    narratedActions: 1
+    text: 1
+    triggers: 1
+    phonemeInfo: 1
+    relations: 1
