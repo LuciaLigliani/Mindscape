@@ -37,7 +37,86 @@ MonoBehaviour:
     billingAccount: billing-accounts/f41855af-3873-448b-b5af-77e983016c71
     meta: 
     runtimeAccess: RUNTIME_ACCESS_PRIVATE
-    scenes: []
-    keySecrets: []
+    scenes:
+    - name: workspaces/testissimo/scenes/prova
+      displayName: prova
+      description: work office
+      characterReferences:
+      - character: workspaces/testissimo/characters/segretary
+        characterOverloads:
+        - defaultCharacterDescription:
+            givenName: segretary
+            description: You are the first avatar that the player will see. Your
+              role is to explain how the application works and provide information
+              about everything the player can do. You are knowledgeable and helpful,
+              always ready to guide and assist the player in their journey.
+          defaultCharacterAssets:
+            rpmModelUri: https://storage.googleapis.com/inworld-ai-usercontent-prod/rpm_model/ae30cc3b-9aa4-46aa-980a-1789b2d9e018.glb
+            rpmImageUriPortrait: https://storage.googleapis.com/inworld-ai-usercontent-prod/rpm_image/ae30cc3b-9aa4-46aa-980a-1789b2d9e018_portrait.jpg
+            rpmImageUriPosture: https://storage.googleapis.com/inworld-ai-usercontent-prod/rpm_image/ae30cc3b-9aa4-46aa-980a-1789b2d9e018_posture.jpg
+            avatarImg: 
+            avatarImgOriginal: 
+            thumbnailProgress: 1
+            avatarProgress: 1
+      - character: workspaces/testissimo/characters/teacher
+        characterOverloads:
+        - defaultCharacterDescription:
+            givenName: teacher
+            description: 'You are like a teacher, responsible for explaining to the
+              player about their disease, which is schizophrenia. You are patient
+              and understanding, providing information and support to help the player
+              understand and cope with their condition. Your role is to educate and
+              empower the player, ensuring they have the knowledge and resources
+              to manage their symptoms and lead a fulfilling life. '
+          defaultCharacterAssets:
+            rpmModelUri: https://storage.googleapis.com/inworld-ai-usercontent-prod/rpm_model/9d0468d6-3f67-44b3-a29d-f49ba6af4cc7.glb
+            rpmImageUriPortrait: https://storage.googleapis.com/inworld-ai-usercontent-prod/rpm_image/9d0468d6-3f67-44b3-a29d-f49ba6af4cc7_portrait.jpg
+            rpmImageUriPosture: https://storage.googleapis.com/inworld-ai-usercontent-prod/rpm_image/9d0468d6-3f67-44b3-a29d-f49ba6af4cc7_posture.jpg
+            avatarImg: 
+            avatarImgOriginal: 
+            thumbnailProgress: 1
+            avatarProgress: 1
+      - character: workspaces/testissimo/characters/boss
+        characterOverloads:
+        - defaultCharacterDescription:
+            givenName: boss
+            description: The boss is a really nice and friendly person. They are
+              always approachable and willing to help. The boss values teamwork and
+              encourages collaboration among the team members. They create a positive
+              and inclusive work environment where everyone feels valued and appreciated.
+              The boss is a great listener and takes the time to understand the needs
+              and concerns of their employees. They are a strong leader who leads
+              by example and sets high standards for themselves and their team.
+          defaultCharacterAssets:
+            rpmModelUri: https://storage.googleapis.com/inworld-ai-usercontent-prod/rpm_model/887d30d1-3960-497f-a347-3d580294b125.glb
+            rpmImageUriPortrait: https://storage.googleapis.com/inworld-ai-usercontent-prod/rpm_image/887d30d1-3960-497f-a347-3d580294b125_portrait.jpg
+            rpmImageUriPosture: https://storage.googleapis.com/inworld-ai-usercontent-prod/rpm_image/887d30d1-3960-497f-a347-3d580294b125_posture.jpg
+            avatarImg: 
+            avatarImgOriginal: 
+            thumbnailProgress: 1
+            avatarProgress: 1
+      - character: workspaces/testissimo/characters/co_worker
+        characterOverloads:
+        - defaultCharacterDescription:
+            givenName: co worker
+            description: The co-worker is known for being very rude and unfriendly.
+              They often speak in a condescending tone and have a habit of dismissing
+              others' ideas. While they may not be the most pleasant person to be
+              around, they are highly efficient and dedicated to their work. Their
+              behavior is often a result of extreme professionalism and a desire
+              to maintain a high standard of excellence. Deep down, they may have
+              their own insecurities and fears that drive their behavior.
+          defaultCharacterAssets:
+            rpmModelUri: https://storage.googleapis.com/inworld-ai-usercontent-prod/rpm_model/20d2bcc4-9193-4f22-b7b3-3699127fd713.glb
+            rpmImageUriPortrait: https://storage.googleapis.com/inworld-ai-usercontent-prod/rpm_image/20d2bcc4-9193-4f22-b7b3-3699127fd713_portrait.jpg
+            rpmImageUriPosture: https://storage.googleapis.com/inworld-ai-usercontent-prod/rpm_image/20d2bcc4-9193-4f22-b7b3-3699127fd713_posture.jpg
+            avatarImg: 
+            avatarImgOriginal: 
+            thumbnailProgress: 1
+            avatarProgress: 1
+    keySecrets:
+    - key: rl6fWno7EWnR4Mepoxq4XTYuN99fqPEa
+      secret: LBeYzhwzn3Vre8n4mCUWdZx1goVwMJQ4fVhBI1eetcbw9jSVKxHrzR6DjK9oihXp
+      state: ACTIVE
   m_UserID: 
   m_BillingAccount: billing-accounts/f41855af-3873-448b-b5af-77e983016c71
