@@ -29,7 +29,10 @@ public class DoorController : MonoBehaviour
         }
     }
 
-    
+    public bool IsOpen()
+    {
+        return isOpen;
+    }
 
     private void Update()
     {
