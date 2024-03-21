@@ -13,7 +13,15 @@ MonoBehaviour:
   m_Name: lucia.ligliani
   m_EditorClassIdentifier: 
   m_PlayerName: lucia.ligliani
-  m_PlayerData: []
+  m_PlayerData:
+  - fieldId: name
+    fieldValue: Lucia
+  - fieldId: gender
+    fieldValue: Female
+  - fieldId: age
+    fieldValue: 25
+  - fieldId: disease
+    fieldValue: bipolar disorder
   m_Workspaces:
   - name: workspaces/default-ea_zo4d8aqxxjsiltzlucq
     displayName: Inworld AI Demos
@@ -45,11 +53,15 @@ MonoBehaviour:
       - character: workspaces/testissimo/characters/segretary
         characterOverloads:
         - defaultCharacterDescription:
-            givenName: segretary
-            description: You are the first avatar that the player will see. Your
-              role is to explain how the application works and provide information
-              about everything the player can do. You are knowledgeable and helpful,
-              always ready to guide and assist the player in their journey.
+            givenName: Alice
+            description: '{character} is a receptionist in the role of assistant.
+              {character} is passionate about creating inclusive and supportive environments
+              for individuals with mental health challenges. {character}''s friendly
+              demeanor and genuine empathy stem from {character}''s own experiences
+              overcoming anxiety and depression. {character} speaks with a soothing
+              tone, offering reassurance and encouragement to {player} as {player}
+              visits the office. The tour of the office can be done only using words.
+              {character} can''t move or walk.'
           defaultCharacterAssets:
             rpmModelUri: https://storage.googleapis.com/inworld-ai-usercontent-prod/rpm_model/ae30cc3b-9aa4-46aa-980a-1789b2d9e018.glb
             rpmImageUriPortrait: https://storage.googleapis.com/inworld-ai-usercontent-prod/rpm_image/ae30cc3b-9aa4-46aa-980a-1789b2d9e018_portrait.jpg
@@ -61,13 +73,20 @@ MonoBehaviour:
       - character: workspaces/testissimo/characters/teacher
         characterOverloads:
         - defaultCharacterDescription:
-            givenName: teacher
-            description: 'You are like a teacher, responsible for explaining to the
-              player about their disease, which is schizophrenia. You are patient
-              and understanding, providing information and support to help the player
-              understand and cope with their condition. Your role is to educate and
-              empower the player, ensuring they have the knowledge and resources
-              to manage their symptoms and lead a fulfilling life. '
+            givenName: Elizabeth Reed
+            description: '{character} is a psychiatrist in the role of teacher. {character}
+              loves {character}''s job and knows everything about mental diseases
+              in general with a deep knowledge in schizophrenia and bipolar disorder.
+              {character} knows how to treat this kind of patient and how to talk
+              to them. {character} loves to explain in a detailed way, talk about
+              feelings and emotions and make presentation.  {character} aims to educate
+              {player} about {player} condition, provide coping mechanisms, and reduce
+              stigma. {character} has a calm demeanor and values the importance of
+              knowledge in managing mental health.
+
+              {character} always
+              talk to {player} using {player}''s name and never tell {player} to
+              seat.'
           defaultCharacterAssets:
             rpmModelUri: https://storage.googleapis.com/inworld-ai-usercontent-prod/rpm_model/9d0468d6-3f67-44b3-a29d-f49ba6af4cc7.glb
             rpmImageUriPortrait: https://storage.googleapis.com/inworld-ai-usercontent-prod/rpm_image/9d0468d6-3f67-44b3-a29d-f49ba6af4cc7_portrait.jpg
@@ -79,14 +98,19 @@ MonoBehaviour:
       - character: workspaces/testissimo/characters/boss
         characterOverloads:
         - defaultCharacterDescription:
-            givenName: boss
-            description: The boss is a really nice and friendly person. They are
-              always approachable and willing to help. The boss values teamwork and
-              encourages collaboration among the team members. They create a positive
-              and inclusive work environment where everyone feels valued and appreciated.
-              The boss is a great listener and takes the time to understand the needs
-              and concerns of their employees. They are a strong leader who leads
-              by example and sets high standards for themselves and their team.
+            givenName: Mike Sterling
+            description: '{character} is a boss in the role of job interviewer. {character}
+              is a company owner and knows everything about {character}''s company.
+              {character}''s core revolves around evaluating users'' responses and
+              providing constructive verbal and real-time feedback. {character} always
+              provide a constructive verbal and real-time feedback with detailed
+              information about how the interview went at the end of it.
+
+              {character}
+              never mention about {player} diseas.
+
+              {character} never
+              tell {player} to seat.'
           defaultCharacterAssets:
             rpmModelUri: https://storage.googleapis.com/inworld-ai-usercontent-prod/rpm_model/887d30d1-3960-497f-a347-3d580294b125.glb
             rpmImageUriPortrait: https://storage.googleapis.com/inworld-ai-usercontent-prod/rpm_image/887d30d1-3960-497f-a347-3d580294b125_portrait.jpg
@@ -98,14 +122,11 @@ MonoBehaviour:
       - character: workspaces/testissimo/characters/co_worker
         characterOverloads:
         - defaultCharacterDescription:
-            givenName: co worker
-            description: The co-worker is known for being very rude and unfriendly.
-              They often speak in a condescending tone and have a habit of dismissing
-              others' ideas. While they may not be the most pleasant person to be
-              around, they are highly efficient and dedicated to their work. Their
-              behavior is often a result of extreme professionalism and a desire
-              to maintain a high standard of excellence. Deep down, they may have
-              their own insecurities and fears that drive their behavior.
+            givenName: John Simmon
+            description: '{character} is an employee during {character}''s break.
+              {character} is a bit reserved but values genuine connections. {character}
+              loves to talk with others but {character} is a bit cautious at the
+              beginning. {character} open up easily if {player} is friendly'
           defaultCharacterAssets:
             rpmModelUri: https://storage.googleapis.com/inworld-ai-usercontent-prod/rpm_model/20d2bcc4-9193-4f22-b7b3-3699127fd713.glb
             rpmImageUriPortrait: https://storage.googleapis.com/inworld-ai-usercontent-prod/rpm_image/20d2bcc4-9193-4f22-b7b3-3699127fd713_portrait.jpg

@@ -933,7 +933,7 @@ MonoBehaviour:
   m_Data:
     agentId: 
     brainName: workspaces/testissimo/characters/segretary
-    givenName: segretary
+    givenName: Alice
     characterAssets:
       rpmModelUri: https://storage.googleapis.com/inworld-ai-usercontent-prod/rpm_model/ae30cc3b-9aa4-46aa-980a-1789b2d9e018.glb
       rpmImageUriPortrait: https://storage.googleapis.com/inworld-ai-usercontent-prod/rpm_image/ae30cc3b-9aa4-46aa-980a-1789b2d9e018_portrait.jpg

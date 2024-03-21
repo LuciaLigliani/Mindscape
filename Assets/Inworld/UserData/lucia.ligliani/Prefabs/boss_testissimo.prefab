@@ -192,7 +192,7 @@ MonoBehaviour:
   m_Data:
     agentId: 
     brainName: workspaces/testissimo/characters/boss
-    givenName: boss
+    givenName: Mike Sterling
     characterAssets:
       rpmModelUri: https://storage.googleapis.com/inworld-ai-usercontent-prod/rpm_model/887d30d1-3960-497f-a347-3d580294b125.glb
       rpmImageUriPortrait: https://storage.googleapis.com/inworld-ai-usercontent-prod/rpm_image/887d30d1-3960-497f-a347-3d580294b125_portrait.jpg

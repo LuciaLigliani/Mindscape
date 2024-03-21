@@ -972,7 +972,7 @@ MonoBehaviour:
   m_Data:
     agentId: 
     brainName: workspaces/testissimo/characters/teacher
-    givenName: teacher
+    givenName: Elizabeth Reed
     characterAssets:
       rpmModelUri: https://storage.googleapis.com/inworld-ai-usercontent-prod/rpm_model/9d0468d6-3f67-44b3-a29d-f49ba6af4cc7.glb
       rpmImageUriPortrait: https://storage.googleapis.com/inworld-ai-usercontent-prod/rpm_image/9d0468d6-3f67-44b3-a29d-f49ba6af4cc7_portrait.jpg

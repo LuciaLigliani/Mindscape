@@ -18,7 +18,7 @@ MonoBehaviour:
   characters:
   - agentId: 
     brainName: workspaces/testissimo/characters/segretary
-    givenName: segretary
+    givenName: Alice
     characterAssets:
       rpmModelUri: https://storage.googleapis.com/inworld-ai-usercontent-prod/rpm_model/ae30cc3b-9aa4-46aa-980a-1789b2d9e018.glb
       rpmImageUriPortrait: https://storage.googleapis.com/inworld-ai-usercontent-prod/rpm_image/ae30cc3b-9aa4-46aa-980a-1789b2d9e018_portrait.jpg
@@ -30,7 +30,7 @@ MonoBehaviour:
     thumbnail: {fileID: 0}
   - agentId: 
     brainName: workspaces/testissimo/characters/teacher
-    givenName: teacher
+    givenName: Elizabeth Reed
     characterAssets:
       rpmModelUri: https://storage.googleapis.com/inworld-ai-usercontent-prod/rpm_model/9d0468d6-3f67-44b3-a29d-f49ba6af4cc7.glb
       rpmImageUriPortrait: https://storage.googleapis.com/inworld-ai-usercontent-prod/rpm_image/9d0468d6-3f67-44b3-a29d-f49ba6af4cc7_portrait.jpg
@@ -42,7 +42,7 @@ MonoBehaviour:
     thumbnail: {fileID: 0}
   - agentId: 
     brainName: workspaces/testissimo/characters/boss
-    givenName: boss
+    givenName: Mike Sterling
     characterAssets:
       rpmModelUri: https://storage.googleapis.com/inworld-ai-usercontent-prod/rpm_model/887d30d1-3960-497f-a347-3d580294b125.glb
       rpmImageUriPortrait: https://storage.googleapis.com/inworld-ai-usercontent-prod/rpm_image/887d30d1-3960-497f-a347-3d580294b125_portrait.jpg
@@ -54,7 +54,7 @@ MonoBehaviour:
     thumbnail: {fileID: 0}
   - agentId: 
     brainName: workspaces/testissimo/characters/co_worker
-    givenName: co worker
+    givenName: John Simmon
     characterAssets:
       rpmModelUri: https://storage.googleapis.com/inworld-ai-usercontent-prod/rpm_model/20d2bcc4-9193-4f22-b7b3-3699127fd713.glb
       rpmImageUriPortrait: https://storage.googleapis.com/inworld-ai-usercontent-prod/rpm_image/20d2bcc4-9193-4f22-b7b3-3699127fd713_portrait.jpg

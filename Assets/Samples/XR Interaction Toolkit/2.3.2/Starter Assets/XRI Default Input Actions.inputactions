@@ -2104,6 +2104,34 @@
                     "isPartOfComposite": false
                 }
             ]
+        },
+        {
+            "name": "Custom",
+            "id": "ea92e598-617b-4056-8ec7-3407b0f4dfdb",
+            "actions": [
+                {
+                    "name": "Push To Talk",
+                    "type": "Button",
+                    "id": "f834066a-be98-45f7-8eb2-d468255e6411",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "c88f9a46-34cc-4280-aa0d-300b5f459c85",
+                    "path": "<XRController>{RightHand}/primaryButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Push To Talk",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
         }
     ],
     "controlSchemes": [

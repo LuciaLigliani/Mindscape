@@ -830,7 +830,7 @@ MonoBehaviour:
   m_Data:
     agentId: 
     brainName: workspaces/testissimo/characters/co_worker
-    givenName: co worker
+    givenName: John Simmon
     characterAssets:
       rpmModelUri: https://storage.googleapis.com/inworld-ai-usercontent-prod/rpm_model/20d2bcc4-9193-4f22-b7b3-3699127fd713.glb
       rpmImageUriPortrait: https://storage.googleapis.com/inworld-ai-usercontent-prod/rpm_image/20d2bcc4-9193-4f22-b7b3-3699127fd713_portrait.jpg
