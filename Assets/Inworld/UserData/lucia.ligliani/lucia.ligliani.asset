@@ -15,11 +15,11 @@ MonoBehaviour:
   m_PlayerName: lucia.ligliani
   m_PlayerData:
   - fieldId: name
-    fieldValue: Lucia
+    fieldValue: Riccardo
   - fieldId: gender
-    fieldValue: Female
+    fieldValue: Male
   - fieldId: age
-    fieldValue: 25
+    fieldValue: 26
   - fieldId: disease
     fieldValue: bipolar disorder
   m_Workspaces:
